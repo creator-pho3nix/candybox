@@ -1,0 +1,11 @@
+
+candies.nbrOwned = Number.POSITIVE_INFINITY;
+lollipops.nbrOwned = Number.POSITIVE_INFINITY;
+quest.setMaxLandOrder( 20 );
+chocolateBars.nbrOwned = 10;
+sword.specialPower = 100;
+for ( var potionName in potions.list ) {
+var potion = potions.list[ potionName ];
+potion.nbrOwned = Number.POSITIVE_INFINITY;
+potion.shown = true;
+}
